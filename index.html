@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrapper flex-parent header-container">
+      <a href="index.html"><h1>Movie Recommendation Engine</h1></a>
+      <h3>For when you're struggling to find something to watch</h3>
+      <h3>Enter a movie that you like:</h3>
+      <form action="#" method='GET' name='movieEngine'>
+        <label for="search" class="sr-only">Pick a movie:</label>
+        <input type="text" name="search" id="search" placeholder='Enter a movie' required>
+        <button type="submit">Search Movies</button>
+      </form>
+    </div>
+  </header>
+  <main>
+    <section class="wrapper search-results flex-parent">
+      <!-- movie search terms go here -->
+    </section>
+    <section class="wrapper rec-results flex-parent">
+     <!-- recommendation results go here -->
+
+    </section>
+  </main>
+  
+  <footer>
+    <div class="wrapper flex-parent">
+      <p>Created at <a href='https://junocollege.com/' class='juno-link'>Juno College</a></p>
+    </div>
+  </footer> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="scripts.js"></script>
+</body>
+</html>
